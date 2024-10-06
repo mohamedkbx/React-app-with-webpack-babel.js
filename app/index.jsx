@@ -6,7 +6,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="light">
-        <Popular />
+        <div className="container">
+          <Popular />
+        </div>
       </div>
     );
   }
