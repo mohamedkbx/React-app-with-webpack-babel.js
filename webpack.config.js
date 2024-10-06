@@ -5,7 +5,7 @@ module.exports = {
   entry: "./app/index.jsx",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "inedx_bundle.js",
+    filename: "index_bundle.js",
   },
   module: {
     rules: [
